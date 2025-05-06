@@ -1,0 +1,143 @@
+<mjml owa="desktop" lang="en" dir="ltr">
+	<mj-head>
+		<mj-title>Starter: Verify your mail</mj-title>
+		<mj-font name="Urbanist" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;500" />
+		<mj-attributes>
+			<mj-all
+				font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
+			/>
+		</mj-attributes>
+		<mj-style inline>
+			.responsive-font p { font-size: 16px !important; line-height: 1.5; letter-spacing: 0.16px; font-weight: 300;
+			} .content p { font-size: 16px !important; line-height: 1.5; letter-spacing: 0.16px; font-weight: 300;
+			margin-bottom: 32px; font-weight: 300; a { color: #101828; font-weight: 600; text-underline-offset: 1.5px;
+			text-decoration-thickness: 1px; } } .auth-number div { text-align: left !important; display: inline-block;
+			padding-top: 8px; padding-right: 12px; padding-bottom: 8px; padding-left: 24px; font-size: 36px !important;
+			font-weight: 600; letter-spacing: 11px; line-height: 1.22; border: 1px solid #D0D5DD; border-radius: 12px; }
+			@media only screen and (max-width: 480px) { .responsive-font h1 { font-size: 34px !important; font-weight:
+			500; } } @media only screen and (min-width: 481px) and (max-width: 768px) { .responsive-font h1 { font-size:
+			35px !important; font-weight: 500; } } @media only screen and (min-width: 769px) { .responsive-font h1 {
+			font-size: 36px !important; font-weight: 600; } } .fix-this table { border-collapse: separate !important; }
+			.auth-radius { border-radius: 12px !important; }
+		</mj-style>
+	</mj-head>
+	<mj-body width="640px">
+		<mj-section background-color="white" padding-bottom="0">
+			<mj-column>
+				<mj-image
+					href="https://www.google.com/"
+					align="left"
+					width="181px"
+					src="images/mailer-logo@2x.png"
+				></mj-image>
+			</mj-column>
+		</mj-section>
+
+		<mj-section background-color="white" padding="0">
+			<mj-column>
+				<mj-divider border-width="1px" padding-top="0" padding-bottom="0" border-color="#EAECF0" />
+				<mj-text
+					css-class="responsive-font"
+					font-family="Urbanist, Arial, sans-serif"
+					line-height="20px"
+					font-size="20px"
+					padding-top="20px"
+					padding-bottom="0px"
+				>
+					<h1>Verify your email</h1>
+				</mj-text>
+				<mj-text
+					css-class="responsive-font"
+					font-family="Urbanist, Arial, sans-serif"
+					line-height="26px"
+					font-size="18px"
+					padding-top="10px"
+				>
+					<p>Hi,<br /><br />Enter this code in the next 5 minutes to sign up:</p>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+
+		<mj-wrapper background-color="white" padding="0px">
+			<mj-section padding="0px 0px 0px 25px">
+				<mj-column
+					css-class="auth-radius"
+					padding="0px"
+					width="33.3%"
+					border="1px solid #D0D5DD"
+					border-radius="12px"
+				>
+					<mj-text
+						font-family="Urbanist, Arial, sans-serif"
+						font-size="36px"
+						letter-spacing="11px"
+						font-weight="600"
+						padding="10px 0px 10px 6px"
+						align="center"
+						>301294</mj-text
+					>
+				</mj-column>
+				<mj-column padding="0px" width="33.3%"> </mj-column>
+				<mj-column padding="0px" width="33.3%"> </mj-column>
+			</mj-section>
+		</mj-wrapper>
+
+		<mj-section background-color="white" padding="0">
+			<mj-column>
+				<mj-text
+					css-class="content"
+					font-family="Urbanist, Arial, sans-serif"
+					line-height="26px"
+					font-size="18px"
+				>
+					<p>
+						If you didn't request this code, you can safely ignore this email. Someone else might have typed
+						your email address by mistake.
+					</p>
+					<p>If you have any questions, please <a href="mailto:info@starter.com">contact us</a>.</p>
+					<p>Best regards,<br />Starter team</p>
+				</mj-text>
+				<mj-divider border-width="1px" padding-top="0" padding-bottom="0" border-color="#EAECF0" />
+			</mj-column>
+		</mj-section>
+
+		<mj-section padding="0" background-color="white">
+			<mj-group vertical-align="middle">
+				<mj-column>
+					<mj-image
+						href="https://www.google.com/"
+						align="left"
+						width="36px"
+						height="36px"
+						src="images/mailer-logo-small@2x.png"
+					></mj-image>
+				</mj-column>
+				<mj-column>
+					<mj-spacer height="10px"></mj-spacer>
+					<mj-social icon-size="36px" mode="horizontal" align="right" vertical-align="middle">
+						<mj-social-element
+							href="https://www.facebook.com/people/stater"
+							icon-size="20px"
+							padding="0px 8px"
+							src="images/fb-logo@2x.png"
+						></mj-social-element>
+						<mj-social-element
+							href="https://www.linkedin.com/company/starter"
+							icon-size="20px"
+							padding="0px 0px 0px 8px"
+							src="images/link-logo@2x.png"
+						></mj-social-element>
+					</mj-social>
+				</mj-column>
+			</mj-group>
+		</mj-section>
+
+		<mj-section padding-bottom="0" padding-top="0" background-color="white">
+			<mj-column>
+				<mj-text css-class="content" font-family="Urbanist, Arial, sans-serif" align="left">
+					<p>© Stater 2024, All Rights Reserved</p>
+				</mj-text>
+			</mj-column>
+		</mj-section>
+	</mj-body>
+</mjml>

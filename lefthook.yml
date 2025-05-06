@@ -1,0 +1,12 @@
+pre-commit:
+    piped: true
+    commands:
+        1_eslint:
+            glob: '*.{js,cjs}'
+            run: npx eslint --fix --quiet {staged_files}
+        2_stylelint:
+            glob: '*.{styl}'
+            run: npx stylelint --fix --quiet {staged_files} --allow-empty-input
+        3_prettier:
+            glob: '*.{html,json,yml,md}'
+            run: npx prettier --write --log-level=error {staged_files} --allow-empty-input

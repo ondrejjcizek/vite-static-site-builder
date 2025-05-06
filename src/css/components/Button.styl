@@ -1,0 +1,83 @@
+.Button 
+	display flex
+	align-items center
+	gap 10px
+	background var(--color-blue-500)
+	color var(--color-white)
+	transition background 0.6s ease, color 0.6s ease
+	padding 15px 24px 17px
+	border-radius var(--radius-base)
+	font-weight 600
+	max-width fit-content
+	font-size 18px
+	line-height calc(28 / 18)
+	height max-content
+	text-wrap nowrap
+	cursor pointer
+
+	&.is-disabled 
+		pointer-events none
+		cursor default
+	
+
+	i:before 
+		font-size calc(20 / 18 * 1em)
+		transition color 0.6s ease
+	
+
+	+hover() 
+		background var(--color-blue-700)
+	
+
+	&--outline 
+		border 1px solid var(--color-cream-300)
+		background transparent
+		color var(--color-white)
+
+		+hover() 
+			background var(--color-cream-300)
+			color var(--color-blue-500)
+		
+
+		&.is-disabled 
+			i:before 
+				color var(--color-blue-200)
+			
+		
+
+		&.button--reverse 
+			color var(--color-blue-500)
+		
+	
+
+	&--action 
+		background var(--color-green-500)
+		color var(--color-white)
+
+		+hover() 
+			background var(--color-green-600)
+		
+	
+
+	&--link 
+		padding 0
+		background transparent
+		color var(--color-blue-700)
+
+		+hover() 
+			background transparent
+			color var(--color-blue-600)
+		
+	
+
+	&--center 
+		justify-content center
+		width 100%
+		max-width fit-content
+		margin 0 auto
+
+		@media small-max 
+			max-width unset
+		
+	
+

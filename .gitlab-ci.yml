@@ -1,0 +1,21 @@
+variables:
+    NODE_VER: '20'
+    BUILD_PATH: 'build'
+
+before_script:
+    - yarn add sharp --ignore-engines
+
+stages:
+    - test
+    - build
+    - deploy
+
+include:
+    - project: 'ci/templates'
+      file: 'coding/test.yml'
+
+    - project: 'ci/templates'
+      file: 'coding/build.yml'
+
+    - project: 'ci/templates'
+      file: 'coding/deploy.yml'

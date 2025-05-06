@@ -1,0 +1,218 @@
+html 
+	box-sizing border-box
+	font-size 62.5%
+	line-height 1.15
+	text-size-adjust 100%
+
+	&:not(&.lenis-scrolling) 
+		.os-scrollbar-handle 
+			opacity 0
+		
+	
+
+
+*
+*:before
+*:after 
+	box-sizing border-box
+	background-repeat no-repeat
+
+
+* 
+	font-variant-ligatures none
+	-webkit-font-smoothing antialiased
+
+
+body 
+	background-color var(--bg-color)
+	line-height calc(24 / 16)
+	font-size var(--font-size)
+	color var(--font-color)
+	font-family var(--font-inter)
+	margin 0
+	padding 0
+	scrollbar-width none
+
+	&::-webkit-scrollbar 
+		display none
+	
+
+
+h1
+h2
+h3
+h4
+h5
+h6 
+	font-family var(--font-geist)
+
+
+h1 
+	font-size 4rem
+
+
+h2 
+	font-size 3.5rem
+
+
+h3 
+	font-size 3rem
+
+
+h4 
+	font-size 2.5rem
+
+
+h5 
+	font-size 2rem
+
+
+h6 
+	font-size 1.7rem
+
+
+ul
+ol 
+	list-style none
+	padding-left 0
+	margin 0
+
+
+a 
+	color var(--color-blue-200)
+	text-decoration none
+
+
+button 
+	font-family inherit
+	border none
+	padding 0
+
+
+p 
+	margin-top 0
+
+
+blockquote 
+	margin 0
+
+
+dl dt 
+	font-weight bold
+
+
+hr 
+	border none
+	background-color var(--color-light-grey)
+	height 1px
+	margin 1rem 0
+
+
+table 
+	width 100%
+	border none
+	border-collapse collapse
+	border-spacing 0
+	text-align left
+
+
+table.striped tr:nth-of-type(2n) 
+	background-color var(--bg-secondary-color)
+
+
+td
+th 
+	vertical-align middle
+	padding 1.2rem 0.4rem
+
+
+thead 
+	border-bottom 2px solid var(--color-light-grey)
+
+
+tfoot 
+	border-top 2px solid var(--color-light-grey)
+
+
+code
+kbd
+pre
+samp
+tt 
+	font-family var(--font-family-mono)
+
+
+code
+kbd 
+	font-size 90%
+	white-space pre-wrap
+	border-radius 4px
+	padding 0.2em 0.4em
+	background-color var(--bg-secondary-color)
+	color var(--color-error)
+
+
+pre 
+	background-color var(--bg-secondary-color)
+	font-size 1em
+	padding 1rem
+	overflow-x auto
+
+
+pre code 
+	background none
+	padding 0
+
+
+abbr[title] 
+	border-bottom none
+	text-decoration underline dotted
+
+
+img 
+	max-width 100%
+
+
+fieldset 
+	border 1px solid var(--color-light-grey)
+
+
+iframe 
+	border 0
+
+
+// SWUP
+html.is-changing .transition-fade 
+	transition opacity 0.25s
+	opacity 1
+
+
+html.is-animating .transition-fade 
+	opacity 0
+
+
+// LENIS
+html.lenis html.lenis body 
+	height auto
+
+
+.lenis.lenis-smooth 
+	scroll-behavior auto !important
+
+
+.lenis.lenis-smooth [data-lenis-prevent] 
+	overscroll-behavior contain
+
+
+.lenis.lenis-stopped 
+	overflow hidden
+
+
+.lenis.lenis-smooth iframe 
+	pointer-events none
+
+
+// GOOGLE RECAPTCHA
+.grecaptcha-badge 
+	visibility hidden
+

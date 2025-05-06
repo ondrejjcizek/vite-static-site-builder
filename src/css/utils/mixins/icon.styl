@@ -1,0 +1,38 @@
+icon-before()
+	&:before
+		display grid
+		place-items center
+		font-size 2.4rem
+		font-family fantasticon !important
+		font-style normal
+		font-weight normal !important
+		font-variant normal
+		text-transform none
+		line-height 1
+		-webkit-font-smoothing antialiased
+		-moz-osx-font-smoothing grayscale
+		{block}
+
+icon-after()
+	&:after
+		display grid
+		place-items center
+		font-size 2.4rem
+		font-family fantasticon !important
+		font-style normal
+		font-weight normal !important
+		font-variant normal
+		text-transform none
+		line-height 1
+		-webkit-font-smoothing antialiased
+		-moz-osx-font-smoothing grayscale
+		{block}
+
+// Usage example:
+// .some-element
+//   icon-after()
+//     content "\f200"
+
+i[class^='icon-']:before
+i[class*=' icon-']:before
+	display grid

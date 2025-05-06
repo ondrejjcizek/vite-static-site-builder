@@ -1,0 +1,177 @@
+|-- .browserslistrc
+|-- .editorconfig
+|-- .env
+|-- .gitignore
+|-- .gitlab-ci.yml
+|-- .nvmrc
+|-- .prettierignore
+|-- .prettierrc.json
+|-- .stylelintignore
+|-- .stylelintrc.json
+|-- CHANGELOG.md
+|-- README.md
+|-- eslint.config.js
+|-- lefthook.yml
+|-- package.json
+|-- plugins
+    |-- fantasticonPlugin.js
+    |-- mjmlCompilator.js
+    |-- postBuild.js
+    |-- sharpPlugin.js
+|-- pnpm-lock.yaml
+|-- src
+    |-- _metadata.json
+    |-- about.html
+    |-- css
+        |-- components
+            |-- alert.scss
+            |-- backdrop.scss
+            |-- badge.scss
+            |-- dialog.scss
+            |-- disclosure.scss
+            |-- features.scss
+            |-- hamburger.scss
+            |-- index.scss
+            |-- map.scss
+            |-- tab-nav.scss
+            |-- table.scss
+            |-- tabs.scss
+            |-- tag.scss
+            |-- testimonials.scss
+        |-- core
+            |-- base.scss
+            |-- button.scss
+            |-- container.scss
+            |-- cookie-bar.scss
+            |-- fonts.scss
+            |-- form.scss
+            |-- heading.scss
+            |-- index.scss
+            |-- layout.scss
+            |-- section.scss
+            |-- text.scss
+            |-- variables.scss
+        |-- fantasticon
+            |-- fantasticon.css
+            |-- fantasticon.html
+            |-- fantasticon.scss
+            |-- fantasticon.svg
+            |-- fantasticon.woff
+            |-- fantasticon.woff2
+        |-- kit
+            |-- base.scss
+            |-- header.scss
+            |-- heading.scss
+            |-- index.scss
+            |-- navigation.scss
+        |-- mails.scss
+        |-- main.scss
+        |-- plugins
+            |-- _index.scss
+            |-- infinite-marquee.scss
+            |-- overlay-scrollbar.scss
+        |-- starterkit.scss
+        |-- utils
+            |-- easing.scss
+            |-- index.scss
+            |-- mixins
+                |-- breakpoints.scss
+                |-- hover.scss
+                |-- icon.scss
+    |-- fonts
+        |-- authenia
+        |-- geist
+            |-- Geist-Bold.woff
+            |-- Geist-Bold.woff2
+            |-- Geist-Light.woff
+            |-- Geist-Light.woff2
+            |-- Geist-Medium.woff
+            |-- Geist-Medium.woff2
+            |-- Geist-Regular.woff
+            |-- Geist-Regular.woff2
+            |-- Geist-SemiBold.woff
+            |-- Geist-SemiBold.woff2
+        |-- noto
+            |-- NotoSerifDisplay-Italic.woff
+            |-- NotoSerifDisplay-Italic.woff2
+            |-- NotoSerifDisplay-Regular.woff
+            |-- NotoSerifDisplay-Regular.woff2
+        |-- raleway
+        |-- work
+            |-- WorkSans-Medium.woff
+            |-- WorkSans-Medium.woff2
+            |-- WorkSans-Regular.woff
+            |-- WorkSans-Regular.woff2
+            |-- WorkSans-SemiBold.woff
+            |-- WorkSans-SemiBold.woff2
+    |-- icons
+        |-- arrow-down.svg
+        |-- arrow-left.svg
+        |-- arrow-path.svg
+        |-- arrow-right.svg
+        |-- beaker.svg
+        |-- chevron-down.svg
+        |-- school.svg
+        |-- send-mail.svg
+        |-- x-mark.svg
+    |-- img
+        |-- _kit
+            |-- scroll-snap.jpg
+            |-- scroll-snap@2x.jpg
+        |-- favicon
+            |-- apple-touch-icon.png
+            |-- favicon-96x96.png
+            |-- favicon.ico
+            |-- favicon.svg
+            |-- site.webmanifest
+            |-- web-app-manifest-192x192.png
+            |-- web-app-manifest-512x512.png
+        |-- og.png
+    |-- index.html
+    |-- js
+        |-- app.js
+        |-- components
+            |-- Carousel.js
+            |-- Dialog.js
+            |-- Disclosure.js
+            |-- Features.js
+            |-- Header.js
+            |-- Testimonials.js
+            |-- _Mails.js
+            |-- _Navigation.js
+        |-- core
+            |-- Component.js
+            |-- Lenis.js
+            |-- componentUtils.js
+            |-- config.js
+        |-- utils
+            |-- dom.js
+            |-- runTimeout.js
+    |-- kit
+        |-- buttons.html
+        |-- carousel.html
+        |-- dialog.html
+        |-- disclosure.html
+        |-- form.html
+        |-- icons.html
+        |-- index.html
+        |-- sections.html
+        |-- typography.html
+        |-- variables.html
+    |-- mails
+        |-- images
+            |-- eudamo-logo-small@2x.png
+            |-- eudamo-logo@2x.png
+            |-- fb-logo@2x.png
+            |-- link-logo@2x.png
+        |-- index.html
+        |-- mjml
+            |-- template.mjml
+        |-- template.html
+    |-- partials
+        |-- head.html
+        |-- header.html
+        |-- htmlEnd.html
+        |-- htmlStart.html
+        |-- kitHeader.html
+|-- vite.config.js

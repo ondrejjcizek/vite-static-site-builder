@@ -1,0 +1,121 @@
+.Text 
+	text-wrap pretty
+
+	&--lg 
+		font-size clamp(1.8rem, 2vw, 2rem)
+		line-height calc(30 / 20)
+
+		@media $small-max 
+			line-height calc(28 / 18)
+		
+
+		ul 
+			li 
+				&:before 
+					top calc(10.5 / 16 * 1em) !important
+					width 5px !important
+					height 5px !important
+
+	&--md 
+		font-size 18px
+		line-height calc(28 / 18)
+	
+
+	&--center 
+		text-align center
+	
+	b 
+		display inline-block
+		margin-bottom 24px
+
+		.tabs__content & 
+			margin-bottom 8px
+		
+	
+
+	h3 
+		font-size clamp(3rem, 3.6vw, 3.6rem)
+		line-height 130%
+		color var(--color-blue-500)
+		margin-bottom 24px
+	
+
+	p 
+		color var(--color-text-tertiary)
+
+		&:last-child 
+			margin-bottom 0
+
+	ul 
+		list-style none inside none
+		margin-bottom 24px
+
+		&:last-child 
+			margin 0
+		
+
+		li 
+			position relative
+			padding-left 25px
+			counter-increment item-counter
+			margin-bottom 8px
+
+			&:last-of-type 
+				margin-bottom 0
+			
+
+			&:before 
+				content ''
+				background var(--color-text)
+				border-radius 50%
+				width 4px
+				height 4px
+				position absolute
+				left 11px
+				top calc(11 / 16 * 1em)
+
+	.highlighted-list 
+		display grid
+		grid-template-columns 1fr 1fr
+		gap 4rem
+		padding clamp(2.4rem, 3.2vw, 3.2rem)
+		background var(--color-white)
+		border-radius var(--radius-base)
+		margin clamp(2.4rem, 4vw, 4rem) 0
+
+		@media $small-wide-max 
+			grid-template-columns 1fr
+		
+
+		&:last-child 
+			margin-bottom 0
+		
+
+		h4
+		h5 
+			font-family var(--font-work)
+			font-weight 600
+			font-size 2rem
+			line-height calc(30 / 20)
+			margin-bottom 24px
+			color var(--color-text-tertiary)
+		
+
+		& > div > div 
+			margin-bottom 4rem
+
+			&:last-of-type 
+				margin-bottom 0
+			
+		
+
+		li 
+			padding-left 0
+			margin-bottom clamp(2rem, 2.4vw, 2.4rem)
+
+			&:before 
+				display none
+			
+		
+	
+

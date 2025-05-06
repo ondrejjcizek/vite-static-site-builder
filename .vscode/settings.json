@@ -1,0 +1,34 @@
+{
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit"
+	},
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"stylelint.enable": true,
+	"stylelint.validate": ["stylus"],
+	"eslint.validate": ["js"],
+	"eslint.workingDirectories": ["../src/js"],
+	"eslint.useFlatConfig": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[stylus]": {
+		"editor.insertSpaces": true
+	},
+	"[js]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.tabSize": 8
+	},
+	"files.associations": {
+		"*.html": "handlebars"
+	},
+	"workbench.iconTheme": "material-icon-theme",
+	"search.exclude": {
+		"**/src/css/utils/mails.styl": true,
+		"**/_*": true
+	}
+}

@@ -1,0 +1,35 @@
+.Container
+    margin 0 auto
+    padding 0
+    padding-left $content-padding-medium
+    padding-right $content-padding-medium
+    max-width $container-width
+    position relative
+    box-sizing content-box
+
+    &--medium
+        max-width $container-width-medium
+
+    &--slim
+        max-width $container-width-slim
+    
+    &--wide
+        max-width $container-width-wide
+        padding 0
+
+        @media $medium-up
+            padding-left $content-padding-medium
+            padding-right $content-padding-medium
+
+    &--full
+        max-width $container-width-full
+
+    &.is-pure
+        padding 0
+        position static
+
+        @media $medium-up
+            padding 0
+
+        @media $large-up
+            padding 0

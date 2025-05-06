@@ -1,0 +1,38 @@
+:root {
+--icon-arrow-right: "\f200";
+--icon-arrow-left: "\f201";
+--icon-send-mail: "\f202";
+--icon-beaker: "\f203";
+--icon-arrow-path: "\f204";
+--icon-arrow-down: "\f205";
+--icon-school: "\f206";
+--icon-x-mark: "\f207";
+--icon-chevron-down: "\f208";
+}
+@font-face {
+    font-family: "fantasticon";
+    src: url("./fantasticon.woff?c10e0ab1e303b6a0c704f00f1c857b01") format("woff"),
+url("./fantasticon.woff2?c10e0ab1e303b6a0c704f00f1c857b01") format("woff2"),
+url("./fantasticon.svg?c10e0ab1e303b6a0c704f00f1c857b01#fantasticon") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: fantasticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before { content: var(--icon-arrow-right); }
+.icon-arrow-left:before { content: var(--icon-arrow-left); }
+.icon-send-mail:before { content: var(--icon-send-mail); }
+.icon-beaker:before { content: var(--icon-beaker); }
+.icon-arrow-path:before { content: var(--icon-arrow-path); }
+.icon-arrow-down:before { content: var(--icon-arrow-down); }
+.icon-school:before { content: var(--icon-school); }
+.icon-x-mark:before { content: var(--icon-x-mark); }
+.icon-chevron-down:before { content: var(--icon-chevron-down); }

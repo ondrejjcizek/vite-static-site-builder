@@ -1,0 +1,10 @@
+{
+	"/index.html": {
+		"title": "Starter Kit",
+		"description": "Starter Kit Description"
+	},
+	"/about.html": {
+		"title": "About",
+		"description": "About Description"
+	}
+}
